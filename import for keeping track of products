@@ -1,0 +1,282 @@
+db.products.insertMany([
+  {
+    name: "Product 1",
+    description: "This is the first product",
+    price: 10.99,
+    quantity: 50,
+    category: "Category A",
+    supplier: {
+      name: "Supplier A",
+      contact: {
+        email: "supplierA@example.com",
+        phone: "+1 123-456-7890"
+      }
+    }
+  },
+  {
+    name: "Product 2",
+    description: "This is the second product",
+    price: 15.99,
+    quantity: 30,
+    category: "Category B",
+    supplier: {
+      name: "Supplier B",
+      contact: {
+        email: "supplierB@example.com",
+        phone: "+1 234-567-8901"
+      }
+    }
+  },
+  {
+    name: "Product 3",
+    description: "This is the third product",
+    price: 6.43,
+    quantity: 23,
+    category: "Category C",
+    supplier: {
+      name: "Supplier C",
+      contact: {
+        email: "supplierC@example.com",
+        phone: "+1 234-587-7812"
+      }
+    }
+  },
+  {
+    name: "Product 4",
+    description: "This is the fourth product",
+    price: 7.53,
+    quantity: 27,
+    category: "Category D",
+    supplier: {
+      name: "Supplier D",
+      contact: {
+        email: "supplierD@example.com",
+        phone: "+1 234-642-8632"
+      }
+    }
+  },
+  {
+    name: "Product 5",
+    description: "This is the fifth product",
+    price: 4.32,
+    quantity: 34,
+    category: "Category E",
+    supplier: {
+      name: "Supplier E",
+      contact: {
+        email: "supplierE@example.com",
+        phone: "+1 234-785-3214"
+      }
+    }
+  },
+  {
+    name: "Product 6",
+    description: "This is the sixth product",
+    price: 5.32,
+    quantity: 64,
+    category: "Category F",
+    supplier: {
+      name: "Supplier F",
+      contact: {
+        email: "supplierF@example.com",
+        phone: "+1 234-432-6421"
+      }
+    }
+  },
+  {
+    name: "Product 7",
+    description: "This is the seventh product",
+    price: 8.54,
+    quantity: 52,
+    category: "Category G",
+    supplier: {
+      name: "Supplier G",
+      contact: {
+        email: "supplierG@example.com",
+        phone: "+1 234-321-5476"
+      }
+    }
+  },
+    {
+    name: "Product 8",
+    description: "This is the eighth product",
+    price: 7.21,
+    quantity: 41,
+    category: "Category H",
+    supplier: {
+      name: "Supplier H",
+      contact: {
+        email: "supplierH@example.com",
+        phone: "+1 234-632-7853"
+      }
+    }
+  },
+  {
+    name: "Product 9",
+    description: "This is the ninth product",
+    price: 4.32,
+    quantity: 32,
+    category: "Category I",
+    supplier: {
+      name: "Supplier I",
+      contact: {
+        email: "supplierI@example.com",
+        phone: "+1 234-971-4398"
+      }
+    }
+  },
+  {
+    name: "Product 10",
+    description: "This is the tenth product",
+    price: 6.78,
+    quantity: 28,
+    category: "Category J",
+    supplier: {
+      name: "Supplier J",
+      contact: {
+        email: "supplierJ@example.com",
+        phone: "+1 234-623-7698"
+      }
+    }
+  },
+  {
+    name: "Product 11",
+    description: "This is the eleventh product",
+    price: 5.42,
+    quantity: 43,
+    category: "Category K",
+    supplier: {
+      name: "Supplier K",
+      contact: {
+        email: "supplierK@example.com",
+        phone: "+1 234-212-3789"
+      }
+    }
+  },
+    {
+    name: "Product 12",
+    description: "This is the Twelvth product",
+    price: 4.32,
+    quantity: 38,
+    category: "Category L",
+    supplier: {
+      name: "Supplier L",
+      contact: {
+        email: "supplierL@example.com",
+        phone: "+1 234-423-9213"
+      }
+    }
+  },
+    {
+    name: "Product 13",
+    description: "This is the Thirteenth product",
+    price: 3.65,
+    quantity: 40,
+    category: "Category M",
+    supplier: {
+      name: "Supplier M",
+      contact: {
+        email: "supplierM@example.com",
+        phone: "+1 234-986-4356"
+      }
+    }
+  },
+      {
+    name: "Product 14",
+    description: "This is the Fourteenth product",
+    price: 4.78,
+    quantity: 38,
+    category: "Category N",
+    supplier: {
+      name: "Supplier N",
+      contact: {
+        email: "supplierN@example.com",
+        phone: "+1 234-754-8763"
+      }
+    }
+  },
+      {
+    name: "Product 15",
+    description: "This is the Fifteenth product",
+    price: 4.32,
+    quantity: 42,
+    category: "Category O",
+    supplier: {
+      name: "Supplier O",
+      contact: {
+        email: "supplierO@example.com",
+        phone: "+1 234-423-8532"
+      }
+    }
+  },
+      {
+    name: "Product 16",
+    description: "This is the Sixteenth product",
+    price: 4.37,
+    quantity: 39,
+    category: "Category P",
+    supplier: {
+      name: "Supplier P",
+      contact: {
+        email: "supplierP@example.com",
+        phone: "+1 234-853-4732"
+      }
+    }
+  },
+      {
+    name: "Product 17",
+    description: "This is the Seventeenth product",
+    price: 4.32,
+    quantity: 37,
+    category: "Category Q",
+    supplier: {
+      name: "Supplier Q",
+      contact: {
+        email: "supplierQ@example.com",
+        phone: "+1 234-721-9854"
+      }
+    }
+  },
+        {
+    name: "Product 18",
+    description: "This is the Eighteenth product",
+    price: 4.23,
+    quantity: 34,
+    category: "Category R",
+    supplier: {
+      name: "Supplier R",
+      contact: {
+        email: "supplierR@example.com",
+        phone: "+1 234-532-0865"
+      }
+    }
+  },
+          {
+    name: "Product 19",
+    description: "This is the Nineteenth product",
+    price: 4.31,
+    quantity: 32,
+    category: "Category S",
+    supplier: {
+      name: "Supplier S",
+      contact: {
+        email: "supplierS@example.com",
+        phone: "+1 234-532-0865"
+      }
+    }
+  },
+            {
+    name: "Product 20",
+    description: "This is the Twenty product",
+    price: 4.29,
+    quantity: 25,
+    category: "Category T",
+    supplier: {
+      name: "Supplier T",
+      contact: {
+        email: "supplierT@example.com",
+        phone: "+1 234-463-9621"
+      }
+    }
+  },
+]);
